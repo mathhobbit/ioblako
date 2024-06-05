@@ -22,15 +22,18 @@ export JAVA_HOME=/usr/local/jdk
 Change directory to ioblako/build/bin and
 
 sh ./imm core
+
 sh ./imm mv
+
 sh ./link
+
 
 It will compile and build ioblako for you.
 Different Unix systems might have different shells.
 If the script "imm" misbehaves in your shell then you either tweak it appropriately or
 use (the right system, Linux, just kidding). On most Unix systems you can install bash and execute imm with bash
 
-bash ./imm core
+bash ./imm core<br/>
 bash ./imm mv
 bash ./link
 
