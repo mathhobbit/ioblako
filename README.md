@@ -54,7 +54,7 @@ will wipe out the content of ioblako/build/jmods and ioblako/build/lib
 ## Testing
 
 The tests are in ioblako/projects/test. You need to add ioblako/build/ioblako/bin to your path or
-simply change to the directory ioblako/projects/test and do, for example,
+simply change the directory to ioblako/projects/test and do, for example,
 
 ../../build/ioblako/bin/runMst -f   \`pwd\`/test.mst
 
