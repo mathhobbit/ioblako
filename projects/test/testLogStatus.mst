@@ -1,0 +1,12 @@
+#?  This  is an mlist for testing LGA
+org.ioblako.moves.log
+	message="----------------Testing Log status------------------"
+        skipFail=true
+org.ioblako.moves.startDaemon
+        mlist=/home/sergey/program/Java/ioblako/projects/test/Log_status_test/test_DEBUG.mst
+org.ioblako.moves.startDaemon
+        mlist=/home/sergey/program/Java/ioblako/projects/test/Log_status_test/test_INFO.mst
+org.ioblako.moves.startDaemon
+        mlist=/home/sergey/program/Java/ioblako/projects/test/Log_status_test/test_MYLOG.mst
+org.ioblako.moves.startDaemon
+        mlist=/home/sergey/program/Java/ioblako/projects/test/Log_status_test/test_TESTLOG.mst
