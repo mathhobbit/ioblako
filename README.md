@@ -66,10 +66,15 @@ yields the following output
 ##
 
 Usage: java core.runMst parameter_name=parameter_value [mlist.mst]
+#
 Usage: java core.runMst -l -t 20000 -f path_2_mlist
+#
 -l   Repeat given [mlist.mst] in the loop
+#
 -t   Define sleep time interval (in milliseconds) between two invocations of [mlist.mst] in the loop
+#
 -f   Path to [mlist.mst]
+#
 
 
 
