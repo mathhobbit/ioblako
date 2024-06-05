@@ -1,7 +1,7 @@
 # ioblako
 A platform for rapid automation (even without human intervention). 
 Ioblako was built for Linux, openBSD, FreeBSD and for majority of commercial operating systems. The core functionality was produced about 24 years ago.
-Though it is only a tiny glimps of a vast industry tested set of tools, I think, this snipet of code would be enough to show with examples how to build a system that can be self-managed, slef-improved (learning stuff) 
+Though it is only a tiny glimpse of a vast industry tested set of tools, I think, this snippet of code would be enough to show with examples how to build a system that can be self-managed, self-improved (learning stuff) 
 and self-sustained with minimal or no human intervention.
 
 ## Compiling
@@ -27,7 +27,7 @@ sh ./link
 
 It will compile and build ioblako for you.
 Different Unix systems might have different shells.
-If the script "imm" misbehaves in your shell then you either twick it appropreately or
+If the script "imm" misbehaves in your shell then you either tweak it appropriately or
 use (the right system, Linux, just kidding). On most Unix systems you can install bash and execute imm with bash
 
 bash ./imm core
@@ -42,7 +42,7 @@ and
 
 bash ./clean_m
 
-will clean binary lefovers from ioblako/build/modules subdirectories.
+will clean binary leftovers from ioblako/build/modules sub-directories.
 
 bash ./clean_l
 
