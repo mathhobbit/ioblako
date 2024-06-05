@@ -34,7 +34,7 @@ If the script "imm" misbehaves in your shell then you either tweak it appropriat
 use (the right system, Linux, just kidding). On most Unix systems you can install bash and execute imm with bash
 
 bash ./imm core<br/>
-bash ./imm mv
+bash ./imm mv<br/>
 bash ./link
 
 If you need to clean compiled classes and rebuild everything, then please make the script executable clean_class.sh,
@@ -69,15 +69,15 @@ yields the following output
 ##
 
 Usage: java core.runMst parameter_name=parameter_value [mlist.mst]
-#
+
 Usage: java core.runMst -l -t 20000 -f path_2_mlist
-#
+
 -l   Repeat given [mlist.mst] in the loop
-#
+
 -t   Define sleep time interval (in milliseconds) between two invocations of [mlist.mst] in the loop
-#
+
 -f   Path to [mlist.mst]
-#
+
 
 
 
