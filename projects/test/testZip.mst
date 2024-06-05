@@ -1,0 +1,13 @@
+#?  This  is an mlist for testing LGA
+$path=/home/sergey/program/Java/ioblako/projects/test/Test.log
+org.ioblako.core.Log
+	file=$path
+	status="DEBUG,INFO"
+org.ioblako.moves.log
+	message="------------Testing move zip-------------------"
+        skipFail=true
+org.ioblako.moves.zip
+         file=/home/sergey/program/Java/ioblako/projects/test/test.mst
+	 archive=/home/sergey/program/Java/ioblako/projects/test/
+org.ioblako.moves.clearState
+org.ioblako.moves.terminate
