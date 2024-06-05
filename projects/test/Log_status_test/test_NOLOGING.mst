@@ -1,0 +1,7 @@
+#?  This  is an mlist for testing LGA
+$path=/home/sergey/program/Java/ioblako/projects/test/Test.log
+org.ioblako.moves.LogTheMessage
+	messagel="Nologing but this"
+        skipFail=true
+org.ioblako.moves.clearState
+org.ioblako.moves.terminate
