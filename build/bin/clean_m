@@ -11,3 +11,4 @@ fi
 
 $IOBLAKO_HOME/bin/clean_class.sh $IOBLAKO_HOME/modules/org.ioblako.core
 $IOBLAKO_HOME/bin/clean_class.sh $IOBLAKO_HOME/modules/org.ioblako.moves
+$IOBLAKO_HOME/bin/clean_class.sh $IOBLAKO_HOME/modules/org.ioblako.util
