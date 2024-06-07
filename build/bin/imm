@@ -200,3 +200,10 @@ compileFile $IOBLAKO_HOME/src/org/ioblako/moves/zip.java org.ioblako.moves
 compileModuleFromTheDir org.ioblako.moves 
 assembleMod org.ioblako.moves org.ioblako.moves no hash
 fi
+if [ $1 = "util" ]; then
+compileFile $IOBLAKO_HOME/src/org/ioblako/util/mlist2Class.java org.ioblako.util
+compileFile $IOBLAKO_HOME/src/org/ioblako/util/readManifest.java org.ioblako.util
+compileFile $IOBLAKO_HOME/src/org/ioblako/util/testMlist.java org.ioblako.util
+compileModuleFromTheDir org.ioblako.util
+assembleMod org.ioblako.util org.ioblako.util org.ioblako.util.testMlist
+fi
